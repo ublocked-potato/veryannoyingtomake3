@@ -1,5 +1,6 @@
-# 🔒 Privacy Search Browser
+BEFORE YOU READ ILL JUST TELL YOU USE V3
 
+# 🔒 Privacy Search Browser
 A lightweight, privacy-respecting web search and browsing application with DuckDuckGo integration. Now with **3 versions** for different needs!
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -217,4 +218,4 @@ npm start  # Runs V3 by default
 
 ---
 
-**Made with ❤️ for privacy**
+**Made for privacy if you did not get it the first time idiot**
