@@ -1,0 +1,35 @@
+{
+  "name": "privacy-search-browser",
+  "version": "3.0.0",
+  "description": "A privacy-respecting web search and browsing application with DuckDuckGo integration - Now with V3 Ultimate Edition!",
+  "main": "server-v3.js",
+  "scripts": {
+    "start": "node server-v3.js",
+    "v1": "node server.js",
+    "v2": "node server-v2.js",
+    "v3": "node server-v3.js",
+    "dev": "node server-v3.js",
+    "test": "node -c server.js && node -c server-v2.js && node -c server-v3.js && echo 'All versions passed syntax check'"
+  },
+  "keywords": [
+    "privacy",
+    "search",
+    "browser",
+    "duckduckgo",
+    "proxy",
+    "web-scraping",
+    "youtube",
+    "tiktok",
+    "games",
+    "io-games"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/privacy-search-browser.git"
+  }
+}
