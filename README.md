@@ -1,4 +1,4 @@
-BEFORE YOU READ ILL JUST TELL YOU USE V3
+# BEFORE YOU READ ILL JUST TELL YOU USE V3
 
 # 🔒 Privacy Search Browser
 A lightweight, privacy-respecting web search and browsing application with DuckDuckGo integration. Now with **3 versions** for different needs!
@@ -218,4 +218,4 @@ npm start  # Runs V3 by default
 
 ---
 
-**Made for privacy if you did not get it the first time idiot**
+**Made for privacy if you did not get it the first time**
