@@ -303,7 +303,54 @@ function getIndexHTML() {
     </style>
 </head>
 <body>
-    <div id="app">
+    <div id="app"><!-- Settings Button (Top Right) -->
+<div class="settings-button" id="settingsBtn">
+    <span style="font-size: 24px;">⚙️</span>
+</div>
+
+<!-- Settings Modal -->
+<div class="settings-modal" id="settingsModal">
+    <div class="settings-content">
+        <div class="settings-header">
+            <h2 class="settings-title">Choose Theme</h2>
+            <button class="close-btn" id="closeBtn">✕</button>
+        </div>
+        <div class="theme-grid">
+            <div class="theme-option theme-teal active" data-color="#00d4aa">
+                <div class="theme-icon">🌊</div>
+                <div class="theme-name">Teal</div>
+            </div>
+            <div class="theme-option theme-bw" data-color="#ffffff">
+                <div class="theme-icon">⚫</div>
+                <div class="theme-name">B&W</div>
+            </div>
+            <div class="theme-option theme-grey" data-color="#6b7280">
+                <div class="theme-icon">⚪</div>
+                <div class="theme-name">Grey</div>
+            </div>
+            <div class="theme-option theme-red" data-color="#ef4444">
+                <div class="theme-icon">⬡</div>
+                <div class="theme-name">Red</div>
+            </div>
+            <div class="theme-option theme-blue" data-color="#3b82f6">
+                <div class="theme-icon">⚡</div>
+                <div class="theme-name">Blue</div>
+            </div>
+            <div class="theme-option theme-purple" data-color="#a855f7">
+                <div class="theme-icon">✦</div>
+                <div class="theme-name">Purple</div>
+            </div>
+            <div class="theme-option theme-neon" data-color="#10b981">
+                <div class="theme-icon">◈</div>
+                <div class="theme-name">Neon</div>
+            </div>
+            <div class="theme-option theme-pink" data-color="#ec4899">
+                <div class="theme-icon">◉</div>
+                <div class="theme-name">Pink</div>
+            </div>
+        </div>
+    </div>
+</div>
         <div class="search-container" id="searchContainer">
             <div class="search-box">
                 <input type="text" class="search-input" id="searchInput" placeholder="Search or type a URL" autofocus>
